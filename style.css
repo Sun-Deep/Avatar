@@ -26,7 +26,6 @@ body{
     display: flex;
     justify-content: space-between;
     width: 70%;
-    /* position: relative; */
 }
 
 .eye{
@@ -65,9 +64,18 @@ body{
     position: absolute;
     border: 5px solid black;
     top: 260px;
-    border-radius: 10px;
+    border-radius: 15px;
     border-top: none;
     border-left: none;
     transform: rotate(45deg);
+}
+
+.moustache{
+    height: 20px;
+    width: 180px;
+    background-color: black;
+    position: absolute;
+    bottom: 90px;
+    border-radius: 5px;
 }
 
