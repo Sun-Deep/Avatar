@@ -19,6 +19,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .eyes{
@@ -57,3 +58,16 @@ body{
     left: 20px;
     transform: rotate(-45deg)
 }
+
+.nose {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    border: 5px solid black;
+    top: 260px;
+    border-radius: 10px;
+    border-top: none;
+    border-left: none;
+    transform: rotate(45deg);
+}
+
