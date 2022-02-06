@@ -1,0 +1,59 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.head{
+    height: 450px;
+    width: 300px;
+    background-color: #F3B378;
+    border-radius: 139px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eyes{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    /* position: relative; */
+}
+
+.eye{
+    border: 5px solid black;
+    height: 100px;
+    width: 60px;
+    border-radius: 21px;
+    position: relative;
+}
+
+.eye::before{
+    content: '';
+    height: 60px;
+    width: 56px;
+    background-color: black;
+    position: absolute;
+    bottom: -1px;
+    left: -3px;
+    border-radius: 20px;
+}
+
+.eye::after{
+    content: '';
+    width: 10px;
+    height: 30px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 45px;
+    left: 20px;
+    transform: rotate(-45deg)
+}
