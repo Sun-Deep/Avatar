@@ -165,7 +165,7 @@ body{
 .glasses {
     display: flex;
     justify-content: space-between;
-    width: 85%;
+    width: 83%;
     position: absolute;
     z-index: 5;
 }
@@ -193,21 +193,19 @@ body{
 }
 
 .glass__bar__one{
-    width: 56px;
-    left: -28px;
+    width: 50px;
+    left: -25px;
 }
 
 .glass__bar__two{
-    width: 56px;
-    width: 33px;
+    width: 36px;
     left: -160px;
     border-radius: 10px 0 0 10px
 }
 
 .glass__bar__three{
-    width: 56px;
-    left: 127px;
-    width: 33px;
+    left: 124px;
+    width: 36px;
     border-radius: 0 10px 10px 0;
 }
 
