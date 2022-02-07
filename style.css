@@ -26,6 +26,7 @@ body{
     display: flex;
     justify-content: space-between;
     width: 70%;
+    z-index: 4;
 }
 
 .eye{
@@ -63,7 +64,7 @@ body{
     width: 60px;
     position: absolute;
     border: 5px solid black;
-    top: 260px;
+    top: 300px;
     border-radius: 15px;
     border-top: none;
     border-left: none;
@@ -75,7 +76,7 @@ body{
     width: 180px;
     background-color: black;
     position: absolute;
-    bottom: 140px;
+    bottom: 110px;
     border-radius: 5px;
 }
 
@@ -87,7 +88,7 @@ body{
     border-top-right-radius: 30%;
     position: absolute;
     border-bottom: 90px solid rgb(0, 0, 0);
-    bottom: 40px;
+    bottom: 10px;
     transform: rotate(180deg);
 }
 
@@ -126,8 +127,8 @@ body{
 
 .hairs::before, .hairs::after {
     content: '';
-    width: 18px;
-    height: 130px;
+    width: 12px;
+    height: 160px;
     background-color: #73004C;
     position: absolute;
     left: 0;
@@ -141,22 +142,75 @@ body{
 
 .ears{
     position: absolute;
-    width: 350px;
+    width: 340px;
     display: flex;
     justify-content: space-between;
     z-index: -1;
+    top: 43%;
 
 }
 
 .ear {
-    width: 30px;
+    width: 20px;
     height: 100px;
     background-color: #d1853e;
     border-radius: 0 40% 40% 0;
-    border: 1px solid gray;
 }
 
 .ear:first-child{
     border-radius: 40% 0 0 40%;
 }
+
+.glasses {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    position: absolute;
+    z-index: 5;
+}
+
+.glass {
+    height: 140px;
+    width: 100px;
+    background-color: rgba(115, 0, 76, 0.4);
+    border-radius: 20%;
+}
+
+.glassbar{
+    position: absolute;
+    top: 44%;
+    z-index: 1
+}
+
+.glass__bar__one,
+.glass__bar__two,
+.glass__bar__three{
+    
+    height: 10px;
+    position: absolute;
+    background-color: #551885;
+}
+
+.glass__bar__one{
+    width: 56px;
+    left: -28px;
+}
+
+.glass__bar__two{
+    width: 56px;
+    width: 33px;
+    left: -160px;
+    border-radius: 10px 0 0 10px
+}
+
+.glass__bar__three{
+    width: 56px;
+    left: 127px;
+    width: 33px;
+    border-radius: 0 10px 10px 0;
+}
+
+
+}
+
 
