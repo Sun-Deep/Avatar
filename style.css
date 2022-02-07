@@ -139,3 +139,24 @@ body{
     right: 0;
 }
 
+.ears{
+    position: absolute;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    z-index: -1;
+
+}
+
+.ear {
+    width: 30px;
+    height: 100px;
+    background-color: #d1853e;
+    border-radius: 0 40% 40% 0;
+    border: 1px solid gray;
+}
+
+.ear:first-child{
+    border-radius: 40% 0 0 40%;
+}
+
